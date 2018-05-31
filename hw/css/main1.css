@@ -1,13 +1,27 @@
+@import url(reser.css);
+
 body{
 	margin: 0;
 	padding: 0;
 	font-family: Tahoma, Arial, sans-serif;
 }
 
+ol, ul {
+	list-style: none;
+}
+
 header{
 	background: #4e8598;
 	color: #fff;
 	text-transform: uppercase;
+
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
 }
 
 .container{
@@ -50,7 +64,7 @@ h1{
 }
 
 .container__arrow{
-	padding-top: 178px;
+	padding: 178px 0 57px 0;
 	width: 35px;	
 	margin: 0 auto;
 }
@@ -58,13 +72,54 @@ h1{
 .about__all{
 	background: #fff;
 
+
+
 }
 .about-me__header{
-	padding-top: 80px;
+	padding-top: 56px;
+	padding-bottom: 56px;
 	text-transform: uppercase;
 	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
+	box-sizing: border-box;
+}
+
+.about__mission{
+	width: 390px;
+	float: left;
+	margin-right: 94px;	
+
+}
+
+.about__revards{
+	width: 390px;
+	float: left;
+	
+}
+
+.about__mission_header, .about__revards_header{
+	text-transform: uppercase;
+	
+}
+
+
+.about__revards_list{
+	padding-left: 0;
+}
+
+.about__revards_list_element{
+	margin: 0 0 25px 0; 
+
+}
+
+.about__revards_list_img{
+	float: left;
+	
+}
+
+.about__revards_list_blue{
+	f
 }
 
 
