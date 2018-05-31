@@ -1,0 +1,32 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+header {
+	background: #4e8598;
+	height: 600px;
+}
+
+.container {
+	width: 940px;
+	height: 600px;
+	margin: 0px auto;
+	border: 2px solid red;
+}
+
+.items__item {
+	width: 180px;
+	text-align: center;
+	color: #fff;
+	float: left;
+	margin-right: 150px;
+}
+
+.items__item:nth-child(1) {
+	margin-left: 43px;
+}
+
+.items__item:nth-child(3) {
+	margin-right: 0px;
+}

@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+header{
+	background: #4e8598;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.container__logo{
+	font-family: "Monotype Corsiva", Arial, Tahoma, sans-serif;
+	font-size: 27px;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+	text-transform: none;
+}
+
+
+
+h1{
+	
+	font-size: 27px;
+	font-weight: bold;
+	text-align: center;
+	padding:190px 170px 0 170px;
+
+}
+
+
+.container__button{
+	width: 216px;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	padding-top: 30px;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 21px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.container__arrow{
+	padding-top: 178px;
+	width: 35px;	
+	margin: 0 auto;
+}
+
+.about__all{
+	background: #fff;
+
+}
+.about-me__header{
+	padding-top: 80px;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
