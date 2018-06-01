@@ -75,9 +75,12 @@ h1{
 
 
 }
-.about-me__header{
+.container__header{
 	padding-top: 56px;
 	padding-bottom: 56px;
+}
+
+.container__header_view{
 	text-transform: uppercase;
 	font-size: 26px;
 	font-weight: bold;
@@ -85,42 +88,55 @@ h1{
 	box-sizing: border-box;
 }
 
-.about__mission{
-	width: 390px;
-	float: left;
+.about-mission__whole-block_margin{
 	margin-right: 94px;	
-
 }
 
-.about__revards{
+.about-revards__whole-block_margin{
+	margin-right: 0;
+}
+
+
+.about-mission__whole-block, .about-revards__whole-block{
 	width: 390px;
 	float: left;
-	
 }
 
-.about__mission_header, .about__revards_header{
+
+.about-mission__header, .about-revards__header{
+	text-align: left;
+}
+
+.about-mission__header_view, .about-revards__header_view{
+	font-size: 22px;
+	font-weight: bold;
 	text-transform: uppercase;
-	
 }
 
-
-.about__revards_list{
+.about-revards__list{
 	padding-left: 0;
 }
 
-.about__revards_list_element{
-	margin: 0 0 25px 0; 
-
-}
-
-.about__revards_list_img{
+.about-revards__img, .about-revards__text{
 	float: left;
-	
+
 }
 
-.about__revards_list_blue{
-	f
+.about-revards__text_blue{
+	color: #4e8598;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0 0 0 18px;
 }
+
+.about-revards__text_gray{
+	color: #b0b2b3;
+	font-size: 15px;
+	padding-left: 18px;
+}
+
+
+
 
 
 
