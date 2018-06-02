@@ -1,13 +1,36 @@
+<<<<<<< HEAD
+=======
+@import url(reser.css);
+
+>>>>>>> temp-branch
 body{
 	margin: 0;
 	padding: 0;
 	font-family: Tahoma, Arial, sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+ol, ul {
+	list-style: none;
+}
+
+>>>>>>> temp-branch
 header{
 	background: #4e8598;
 	color: #fff;
 	text-transform: uppercase;
+<<<<<<< HEAD
+=======
+
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+>>>>>>> temp-branch
 }
 
 .container{
@@ -50,7 +73,11 @@ h1{
 }
 
 .container__arrow{
+<<<<<<< HEAD
 	padding-top: 178px;
+=======
+	padding: 178px 0 57px 0;
+>>>>>>> temp-branch
 	width: 35px;	
 	margin: 0 auto;
 }
@@ -58,14 +85,98 @@ h1{
 .about__all{
 	background: #fff;
 
+<<<<<<< HEAD
 }
 .about-me__header{
 	padding-top: 80px;
+=======
+
+
+}
+.container__header{
+	padding-top: 56px;
+	padding-bottom: 56px;
+}
+
+.container__header_view{
+>>>>>>> temp-branch
 	text-transform: uppercase;
 	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
+<<<<<<< HEAD
 }
 
+=======
+	box-sizing: border-box;
+}
+
+.about-mission__whole-block_size{
+	margin-right: 94px;
+		
+}
+
+.about-mission__text{
+	line-height: 1.9;
+}
+
+
+.about-revards__whole-block_size{
+	margin-right: 0;
+}
+
+
+.about-mission__whole-block, .about-revards__whole-block{
+	width: 412px;
+	float: left;
+}
+
+
+.about-mission__header, .about-revards__header{
+	text-align: left;
+}
+
+.about-mission__header_view, .about-revards__header_view{
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+.about-mission__list-block{
+	float: left;
+	margin-bottom: 18px;
+	
+}
+
+.about-revards__inner-list{
+	padding-left: 0;
+}
+
+
+.about-revards__inner-list-element{
+	float: left;
+	padding-right: 18px;
+}
+.about-revards__inner-list-element:nth-child(3){
+	padding-right: 0px;
+}
+
+.about-revards__text_blue{
+	color: #4e8598;
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+
+.about-revards__text_gray{
+	color: #b0b2b3;
+	font-size: 15px;
+}
+
+
+
+
+>>>>>>> temp-branch
 
 
