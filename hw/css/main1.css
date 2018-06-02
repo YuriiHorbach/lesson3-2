@@ -1,27 +1,19 @@
-<<<<<<< HEAD
-=======
 @import url(reser.css);
 
->>>>>>> temp-branch
 body{
 	margin: 0;
 	padding: 0;
 	font-family: Tahoma, Arial, sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 ol, ul {
 	list-style: none;
 }
 
->>>>>>> temp-branch
 header{
 	background: #4e8598;
 	color: #fff;
 	text-transform: uppercase;
-<<<<<<< HEAD
-=======
 
 }
 
@@ -30,7 +22,6 @@ header{
 	display: table;
 	width: 100%;
 	clear: both;
->>>>>>> temp-branch
 }
 
 .container{
@@ -73,11 +64,7 @@ h1{
 }
 
 .container__arrow{
-<<<<<<< HEAD
-	padding-top: 178px;
-=======
 	padding: 178px 0 57px 0;
->>>>>>> temp-branch
 	width: 35px;	
 	margin: 0 auto;
 }
@@ -85,11 +72,6 @@ h1{
 .about__all{
 	background: #fff;
 
-<<<<<<< HEAD
-}
-.about-me__header{
-	padding-top: 80px;
-=======
 
 
 }
@@ -99,27 +81,17 @@ h1{
 }
 
 .container__header_view{
->>>>>>> temp-branch
 	text-transform: uppercase;
 	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
-<<<<<<< HEAD
-}
-
-=======
 	box-sizing: border-box;
 }
 
 .about-mission__whole-block_size{
 	margin-right: 94px;
-		
+	line-height: 1.9;	
 }
-
-.about-mission__text{
-	line-height: 1.9;
-}
-
 
 .about-revards__whole-block_size{
 	margin-right: 0;
@@ -145,7 +117,6 @@ h1{
 
 .about-mission__list-block{
 	float: left;
-	margin-bottom: 18px;
 	
 }
 
@@ -177,6 +148,5 @@ h1{
 
 
 
->>>>>>> temp-branch
 
 
