@@ -193,7 +193,7 @@ h1{
 .requested-list-element{
 	width: 210px;
 	color: #2f383b;
-	padding: 0 64px; 
+	padding: 0 48px; 
 	float: left;	
 }
 
@@ -208,6 +208,14 @@ h1{
 	margin: 0 auto;
 
 }
+
+.requested-circle:hover{
+	background: #2f383b;
+	color: #fff;
+
+}
+
+
 
 .requested-circle_view{
 	border: 1px solid #3b4447;
@@ -227,9 +235,9 @@ h1{
 	text-align: center;
 }
 
-.requested-text_view:hover{
-	color: #2f383b;
-}
+
+
+
 
 
 
