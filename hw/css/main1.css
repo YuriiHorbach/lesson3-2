@@ -90,7 +90,11 @@ h1{
 
 .about-mission__whole-block_size{
 	margin-right: 94px;
-	line-height: 1.9;	
+		
+}
+
+.about-mission__text{
+	line-height: 1.9;
 }
 
 .about-revards__whole-block_size{
@@ -99,7 +103,7 @@ h1{
 
 
 .about-mission__whole-block, .about-revards__whole-block{
-	width: 412px;
+	width: 414px;
 	float: left;
 }
 
@@ -112,6 +116,15 @@ h1{
 	font-size: 22px;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+
+.about-revards__header_pseudo:after{
+	content: '';
+	display: block;
+	background: #4e8598;
+	width: 72px;
+	height: 3px;
+	margin-top: 10px;
 }
 
 
@@ -166,6 +179,58 @@ h1{
 	text-align: center;
 	
 }
+
+.requested{
+	margin-top: 160px;
+
+}
+
+.requested-wrap{
+	margin: 70px 0 0 0;
+	padding: 0;
+}
+
+.requested-list-element{
+	width: 210px;
+	color: #2f383b;
+	padding: 0 64px; 
+	float: left;	
+}
+
+.requested-list-element:nth-child(3){
+	padding: 0 0 0 27px; 
+}
+
+.requested-circle{
+	width: 40px;
+	text-align: center;
+	padding: 30px;
+	margin: 0 auto;
+
+}
+
+.requested-circle_view{
+	border: 1px solid #3b4447;
+	border-radius: 50px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+.requested-text{
+	margin-top: 18px;
+}
+
+.requested-text_view{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.requested-text_view:hover{
+	color: #2f383b;
+}
+
 
 
 

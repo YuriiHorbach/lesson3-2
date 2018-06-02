@@ -8,7 +8,8 @@ body{
 	border:1px solid red;
 	text-align: center;
 }
-/*
-.block:hover{
-	color: blue;
-}*/
+
+.block:hover .box{
+	background:#53ea93;
+}
+
