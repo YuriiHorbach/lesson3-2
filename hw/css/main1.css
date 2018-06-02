@@ -88,17 +88,23 @@ h1{
 	box-sizing: border-box;
 }
 
-.about-mission__whole-block_margin{
-	margin-right: 94px;	
+.about-mission__whole-block_size{
+	margin-right: 94px;
+		
 }
 
-.about-revards__whole-block_margin{
+.about-mission__text{
+	line-height: 1.9;
+}
+
+
+.about-revards__whole-block_size{
 	margin-right: 0;
 }
 
 
 .about-mission__whole-block, .about-revards__whole-block{
-	width: 390px;
+	width: 412px;
 	float: left;
 }
 
@@ -113,26 +119,36 @@ h1{
 	text-transform: uppercase;
 }
 
-.about-revards__list{
+
+.about-mission__list-block{
+	float: left;
+	margin-bottom: 18px;
+	
+}
+
+.about-revards__inner-list{
 	padding-left: 0;
 }
 
-.about-revards__img, .about-revards__text{
-	float: left;
 
+.about-revards__inner-list-element{
+	float: left;
+	padding-right: 18px;
+}
+.about-revards__inner-list-element:nth-child(3){
+	padding-right: 0px;
 }
 
 .about-revards__text_blue{
 	color: #4e8598;
 	font-size: 16px;
 	font-weight: bold;
-	padding: 0 0 0 18px;
+	
 }
 
 .about-revards__text_gray{
 	color: #b0b2b3;
 	font-size: 15px;
-	padding-left: 18px;
 }
 
 
