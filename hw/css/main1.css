@@ -17,6 +17,10 @@ header{
 
 }
 
+.color-h2{
+	color: #2f383b;
+}
+
 .clearfix:after {
 	content:'';
 	display: table;
@@ -88,8 +92,12 @@ h1{
 	box-sizing: border-box;
 }
 
+.about-mission, .about-revards{
+	box-sizing: border-box;
+}
+
 .about-mission__whole-block_size{
-	margin-right: 94px;
+	margin-right: 40px;
 		
 }
 
@@ -102,9 +110,13 @@ h1{
 }
 
 
-.about-mission__whole-block, .about-revards__whole-block{
-	width: 414px;
+.about-mission, .about-revards{
+	width: 450px;
 	float: left;
+}
+
+.about-mission{
+	padding: 0 10px;
 }
 
 
@@ -131,10 +143,14 @@ h1{
 .about-mission__list-block{
 	float: left;
 	margin-top: 10px;
+	height: 54px;
 }
 
 .about-revards__inner-list{
 	padding-left: 0;
+	float: left;
+	box-sizing: border-box;
+	margin-top: 0;
 }
 
 
@@ -144,6 +160,11 @@ h1{
 
 
 }
+
+.about-revards__img, .about-revards__text{
+	float: left;
+}
+
 .about-revards__inner-list-element:nth-child(3){
 	padding-right: 0px;
 }
@@ -234,8 +255,31 @@ h1{
 	font-weight: bold;
 	text-align: center;
 }
+/* 
+.requested__i-think{
+	padding: 40px 0 0 0;
+}
+
+.requested__i-think_view{
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	box-sizing: border-box;
+
+}
 
 
+.requested__offer{
+	width: 413px;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+
+.requested__offer_view{
+	text-align: center;
+}
+ */
 
 
 
