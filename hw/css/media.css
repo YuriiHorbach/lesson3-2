@@ -1,0 +1,14 @@
+/*tablets 728-960*/
+@media screen and (max-width: 960px){
+	.container{
+		width: 90%;
+	}
+}
+
+/*mobile 0-728*/
+
+@media screen and (max-width: 728px){
+	.container{
+		width: 90%;
+	}
+}

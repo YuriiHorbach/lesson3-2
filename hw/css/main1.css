@@ -34,12 +34,6 @@ header{
 }
 
 .container__logo{
-	font-family: "Monotype Corsiva", Arial, Tahoma, sans-serif;
-	font-size: 27px;
-	color: #fff;
-	text-align: center;
-	padding-top: 53px;
-	text-transform: none;
 	width: 123px;
 	margin: 0 auto;
 }
@@ -51,7 +45,6 @@ h1{
 	font-size: 27px;
 	font-weight: bold;
 	text-align: center;
-	padding:190px 170px 0 170px;
 
 }
 
