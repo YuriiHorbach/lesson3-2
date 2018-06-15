@@ -3,6 +3,47 @@
 	.container{
 		width: 90%;
 	}
+
+	.about-mission{
+		width: 42%;
+	}
+
+	.about-revards {
+		width: 50%;
+	}
+
+	.about-revards__text_gray{
+		display: none;
+	}
+
+	.requested-list-element{
+		width: 21%;
+		margin-left: 0;
+		padding-left: 0;
+
+	}
+	.requested-list-element:nth-child(3){
+		float: right;
+		margin-right: 0;
+	}
+
+	.requested-list-element:nth-child(2){
+		float: left;
+		padding:0 12%;
+	}
+
+	.footer__list-element{
+	padding-right: 1%;
+	width: 33%;
+	}
+
+	.footer__list-element:nth-child(2){
+	width: 23%;
+	}
+
+	.footer__list-element:nth-child(3){
+	width: 40%;
+	}
 }
 
 /*mobile 0-728*/
