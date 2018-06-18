@@ -36,6 +36,8 @@ header{
 .container__logo{
 	width: 123px;
 	margin: 0 auto;
+	padding-top: 52px;padding-top: 52px;
+
 }
 
 
@@ -45,6 +47,7 @@ h1{
 	font-size: 27px;
 	font-weight: bold;
 	text-align: center;
+	margin-top: 190px;
 
 }
 
