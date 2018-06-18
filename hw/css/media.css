@@ -52,4 +52,75 @@
 	.container{
 		width: 90%;
 	}
+
+	.about-mission{
+		width: 100%;
+		float: none;
+		padding: 0;	
+		
+	}
+
+	.about-revards{
+		margin-top: 50px;
+		width: 100%;
+		float: none;
+	}
+
+	.requested-list-element{
+		width: 100%;	
+		float: none;
+		margin-bottom: 50px;	
+	}
+
+	.requested-list-element:nth-child(2){
+		padding: 0;
+
+	}
+
+	.requested__offer {
+    padding: 30px 0 25px 0;
+    margin: 0 auto;
+    width: 	90%;
+	}
+
+	.footer-in{
+		padding-top: 36px;
+
+	}
+
+	.footer__list{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	.footer__list-element:nth-child(2){
+		display: none;
+		margin: 0;
+		text-align: center;
+		padding: 0;
+		
+
+	}
+	
+	.footer__list-element{
+		width: 100%;	
+		float: none;
+		margin-bottom: 10px;
+		text-align: center;
+		padding: 0;
+	}
+
+	.footer__list-element:nth-child(3){
+		width: 100%;	
+		margin: 0;
+		text-align: center;
+		padding: 0;
+	}		
+
+}
+}
+
+
+
 }
